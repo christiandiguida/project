@@ -1,0 +1,114 @@
+{
+  "usuarios": [
+    {
+      "name": "Christian",
+      "password": "1234",
+      "pedidos": [],
+      "id": 12
+    },
+    {
+      "name": "admin",
+      "password": "admin",
+      "pedidos": [
+        {
+          "name": "Pedido1",
+          "date": "2021-05-15",
+          "articles": [
+            {
+              "nombre": "Articulo1",
+              "totalPrice": 100,
+              "unidades": 1
+            }
+          ],
+          "totalPedido": 100,
+          "id": 1
+        },
+        {
+          "name": "Pedido2",
+          "date": "2021-05-15",
+          "articles": [
+            {
+              "nombre": "Articulo1",
+              "totalPrice": 100,
+              "unidades": 1
+            }
+          ],
+          "totalPedido": 100,
+          "id": 2
+        }
+      ],
+      "id": 14
+    },
+    {
+      "name": "Pedro",
+      "password": "1234",
+      "pedidos": [],
+      "id": 15
+    }
+  ],
+  "articulos": [
+    {
+      "name": "Articulo1",
+      "price": 100,
+      "stock": 98,
+      "vecesPedido": 2,
+      "id": 1
+    },
+    {
+      "name": "Articulo2",
+      "price": 100,
+      "stock": 100,
+      "vecesPedido": 0,
+      "id": 2
+    },
+    {
+      "name": "Articulo3",
+      "price": 100,
+      "stock": 100,
+      "vecesPedido": 0,
+      "id": 3
+    },
+    {
+      "name": "Articulo4",
+      "price": 100,
+      "stock": 100,
+      "vecesPedido": 0,
+      "id": 4
+    },
+    {
+      "name": "Articulo5",
+      "price": 100,
+      "stock": 100,
+      "vecesPedido": 0,
+      "id": 5
+    }
+  ],
+  "orders": [
+    {
+      "name": "Pedido1",
+      "date": "2021-05-15",
+      "articles": [
+        {
+          "nombre": "Articulo1",
+          "totalPrice": 100,
+          "unidades": 1
+        }
+      ],
+      "totalPedido": 100,
+      "id": 1
+    },
+    {
+      "name": "Pedido2",
+      "date": "2021-05-15",
+      "articles": [
+        {
+          "nombre": "Articulo1",
+          "totalPrice": 100,
+          "unidades": 1
+        }
+      ],
+      "totalPedido": 100,
+      "id": 2
+    }
+  ]
+}
